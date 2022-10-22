@@ -2,7 +2,7 @@
 
 function create() {
     git init
-    echo "$(tput setaf 2)"$1"$(tput sgr0)"
+    echo "$(tput setaf 2)" " [*] Now You Have Git ..." "$(tput sgr0)"
     git add -A
 
     echo " [?] What Commit ? : "
