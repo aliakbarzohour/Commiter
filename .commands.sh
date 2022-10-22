@@ -8,4 +8,6 @@ function create() {
     echo " [?] What Commit ? : "
     read -n commit
     git commit -m $commit
+
+    clear
 }
