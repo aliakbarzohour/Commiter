@@ -14,12 +14,11 @@ function Checkdir() {
         git init
         git add -A
         git commit -m 'First Commit . . .'
-
     fi
 
 }
 
-function create() {
+function commiter() {
     Checkdir
     clear
 }
