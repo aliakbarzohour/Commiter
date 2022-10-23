@@ -1,4 +1,7 @@
+
+
+from ast import If
 import os
+import sys
 
-
-print("Your Os is :",os.name)
+print()
